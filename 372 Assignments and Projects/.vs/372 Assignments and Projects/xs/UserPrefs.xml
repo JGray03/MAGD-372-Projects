@@ -2,15 +2,16 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ChangeShader.cs">
     <Files>
       <File FileName="Assets/MouseLook.cs" Line="18" Column="50" />
-      <File FileName="Assets/PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/PlayerMovement.cs" />
       <File FileName="Assets/ChangeShader.cs" Line="14" Column="33" />
+      <File FileName="Library/PackageCache/com.unity.render-pipelines.universal@14.0.8/Shaders/Lit.shader" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="372 Assignments and Projects" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="ChangeShader.cs" selected="True" />
+              <Node name="MouseLook.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dc6002cc-53e5-4371-94df-7cff1ef018f7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1274acf6-c1db-4930-8d32-fa024f70dcd2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
