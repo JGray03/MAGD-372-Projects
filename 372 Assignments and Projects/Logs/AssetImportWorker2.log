@@ -191,3 +191,35 @@ Received Import Request.
 Start importing Assets/AurynSky/Forest Pack/Materials/ShowCase.mat using Guid(ce6846b6b5ba77f4e83630cc67fcd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af5acf6b40302bdcf0f9577ec4cbd54') in 0.006726 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 108.571506 seconds.
+  path: Assets/Shader/Colorchange.shadergraph
+  artifactKey: Guid(1b70435b1e83642ffa3cdb20d87a0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Colorchange.shadergraph using Guid(1b70435b1e83642ffa3cdb20d87a0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4b8b8ef3b266ac7d5cfe7a185b94ff') in 0.001868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.348555 seconds.
+  path: Assets/Shader/ShieldPBR.shadergraph
+  artifactKey: Guid(885c3ebd048874f4b8b8d37d1927acf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/ShieldPBR.shadergraph using Guid(885c3ebd048874f4b8b8d37d1927acf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c212ab206191862f33d578365d0dec') in 0.001874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 133.024190 seconds.
+  path: Assets/AurynSky/Forest Pack/Materials/ColorPaletteNormal.mat
+  artifactKey: Guid(f731a2ae89bef7a47a008811dfbd4680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Materials/ColorPaletteNormal.mat using Guid(f731a2ae89bef7a47a008811dfbd4680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13814a3c99bbc27cfbd9bbec98cd1dc') in 0.001030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 84.597753 seconds.
+  path: Assets/Game Design Assignment 2.unity
+  artifactKey: Guid(53322462692384650a610c5ea5d362e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design Assignment 2.unity using Guid(53322462692384650a610c5ea5d362e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aefc2d8b5c321ac13abf438ceb7947f') in 0.000715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1792
     height: 993
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 38
+  controlID: 17
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 39
+  controlID: 18
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 40
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 405.5
     height: 943
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -647,9 +647,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -25.830093, y: 34.060562, z: -15.755875}
+    m_Target: {x: 24.099995, y: 40, z: -24.8}
     speed: 2
-    m_Value: {x: -25.830093, y: 34.060562, z: -15.755875}
+    m_Value: {x: 24.09999, y: 40, z: -24.8}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -695,13 +695,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.11850716, y: -0.02323585, z: 0.0028204971, w: -0.9927735}
+    m_Target: {x: 0.2236872, y: 0.14875104, z: -0.03463114, w: 0.96272004}
     speed: 2
-    m_Value: {x: -0.118495844, y: -0.023233632, z: 0.0028202278, w: -0.9926787}
+    m_Value: {x: 0.22510941, y: 0.14868462, z: -0.034850966, w: 0.9622911}
   m_Size:
-    m_Target: 11.76205
+    m_Target: 37.1331
     speed: 2
-    m_Value: 11.76205
+    m_Value: 37.216835
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -894,10 +894,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 98.5}
-      m_SelectedIDs: 527d0000
+      scrollPos: {x: 0, y: 96}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5adaffff92e5ffff50f3ffff14fbffffd0960000
+      m_ExpandedIDs: 6c55ffffb260ffff0662ffff3e6dffffee7affff24bcffff8cbdffffd6c8ffff14fbffff688400001296000076ac0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -966,7 +966,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AurynSky/Forest Pack/Materials
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -974,17 +974,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/AurynSky/Forest Pack/Materials
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/jackson/Documents/GitHub/MAGD-372-Projects/372 Assignments
     and Projects
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 4e970000
-    m_LastClickedID: 38734
-    m_ExpandedIDs: 00000000c67d0000c87d0000ca7d0000567f00004897000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: d48a0000
+    m_LastClickedID: 35540
+    m_ExpandedIDs: 00000000d48a0000d68a0000d88a0000948c0000e48c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1012,7 +1012,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c67d0000c87d0000ca7d0000
+    m_ExpandedIDs: 00000000d48a0000d68a0000d88a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1089,9 +1089,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 638.5
-    width: 1236
-    height: 364.5
+    y: 794.5
+    width: 1385.5
+    height: 210.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
