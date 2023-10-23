@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50264
+50437
 Successfully changed project path to: /Users/jackson/Documents/GitHub/MAGD-372-Projects/My project
 /Users/jackson/Documents/GitHub/MAGD-372-Projects/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,11 +56,11 @@ Successfully changed project path to: /Users/jackson/Documents/GitHub/MAGD-372-P
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704629298944] Host "[IP] 172.22.127.236 [Port] 0 [Flags] 2 [Guid] 2251944703 [EditorId] 2251944703 [Version] 1048832 [Id] OSXEditor(0,Jacksons-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704629298944] Host "[IP] 172.22.127.236 [Port] 0 [Flags] 2 [Guid] 1240863998 [EditorId] 1240863998 [Version] 1048832 [Id] OSXEditor(0,Jacksons-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704629298944] Host "[IP] 172.22.127.236 [Port] 0 [Flags] 2 [Guid] 2251944703 [EditorId] 2251944703 [Version] 1048832 [Id] OSXEditor(0,Jacksons-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704629298944] Host "[IP] 172.22.127.236 [Port] 0 [Flags] 2 [Guid] 1240863998 [EditorId] 1240863998 [Version] 1048832 [Id] OSXEditor(0,Jacksons-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56243
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56271
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001552 seconds.
-- Loaded All Assemblies, in  0.402 seconds
+Registered in 0.001722 seconds.
+- Loaded All Assemblies, in  0.418 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.325 seconds
-Domain Reload Profiling: 727ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling: 755ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (98ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (99ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (160ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (170ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (325ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (338ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (248ms)
+		SetupLoadedEditorAssemblies (259ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (10ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (170ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,6 +123,259 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/jackson/Documents/GitHub/MAGD-372-Projects/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/jackson/Documents/GitHub/MAGD-372-Projects/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.716 seconds
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.775 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 1668ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (219ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (894ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (683ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (581ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (50.9 KB). Loaded Objects now: 3528.
+Memory consumption went from 120.4 MB to 120.3 MB.
+Total: 4.087728 ms (FindLiveObjects: 0.244032 ms CreateObjectMapping: 0.185314 ms MarkObjects: 3.539958 ms  DeleteObjects: 0.117375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10488.846404 seconds.
+  path: Assets/Scenes/Asset Forge Models
+  artifactKey: Guid(0558d3c3c13ef4c4ca759e6ae27783a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models using Guid(0558d3c3c13ef4c4ca759e6ae27783a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d58abb1de67e73ce007831c81f365a') in 0.001924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.225914 seconds.
+  path: Assets/Scenes/Asset Forge Models/Animal Trophy.fbx
+  artifactKey: Guid(90f2fa1c57a3740baaad364e98a13e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Animal Trophy.fbx using Guid(90f2fa1c57a3740baaad364e98a13e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b8a5b729e240efdd2c808dda87d0c8') in 0.580452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scenes/Asset Forge Models/Wagon.fbx
+  artifactKey: Guid(be68f4dab635c4c28801e849f378b8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Wagon.fbx using Guid(be68f4dab635c4c28801e849f378b8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef550a4cb7a1865bdd75820813c15ed') in 0.050331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/Asset Forge Models/Weapon Rack 2.fbx
+  artifactKey: Guid(9941164503b3648d494b25302133b6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Weapon Rack 2.fbx using Guid(9941164503b3648d494b25302133b6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cf54a0c34a7927e16f4e942f5d3b33') in 0.019560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scenes/Asset Forge Models/Arrow 2.fbx
+  artifactKey: Guid(277adc277a9d84513a9d81b4fa20dcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Arrow 2.fbx using Guid(277adc277a9d84513a9d81b4fa20dcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516f844aa2a0debf43b50aeeb62011c1') in 0.020433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Scenes/Asset Forge Models/Flail.fbx
+  artifactKey: Guid(187db0f7987784385a6356a1d4f9cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Flail.fbx using Guid(187db0f7987784385a6356a1d4f9cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b24b03948d604d8b962e3fc890a8561') in 0.016292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/Asset Forge Models/Antlers.fbx
+  artifactKey: Guid(ce77d2bcae9b44a2cb759fa168f723f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Antlers.fbx using Guid(ce77d2bcae9b44a2cb759fa168f723f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7cdb4e88514b5912c19bb0cb599d9e') in 0.027013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Scenes/Asset Forge Models/Quiver 2.fbx
+  artifactKey: Guid(43d880a06a0654f719994150651c185b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Quiver 2.fbx using Guid(43d880a06a0654f719994150651c185b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3bfb0bc1be03148c205c485adf749d') in 0.019138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/Asset Forge Models/Quiver.fbx
+  artifactKey: Guid(39b08242088f2483b8d79b5e57e84552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Quiver.fbx using Guid(39b08242088f2483b8d79b5e57e84552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc8c4adc65778792f6e1118dbbebe56') in 0.036890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 48.082351 seconds.
+  path: Assets/Antlers 2.png
+  artifactKey: Guid(35b99accc51af45efbeb119054ac3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Antlers 2.png using Guid(35b99accc51af45efbeb119054ac3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05b37c8c1f09b7c1a94f601e0a339f0') in 0.019006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Bayonet 2.png
+  artifactKey: Guid(217b8e2a85cd94ca483d0e9770ee1c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bayonet 2.png using Guid(217b8e2a85cd94ca483d0e9770ee1c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3395205b53985b7e779ddcbfa8c693c4') in 0.007539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/custom8(Clone).png
+  artifactKey: Guid(a65b65b74acc640a5a0c1212d372bf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/custom8(Clone).png using Guid(a65b65b74acc640a5a0c1212d372bf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1366c924f7e2a366c477c1179bb91f') in 0.007324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/dark(Clone).png
+  artifactKey: Guid(39ac445065ca3407f959f7650f1f0f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dark(Clone).png using Guid(39ac445065ca3407f959f7650f1f0f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac74e9f89c8c66a3e2dda38a7471d2a') in 0.005990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/wood(Clone).png
+  artifactKey: Guid(5f83156b50a1941c3a3cea628957f916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wood(Clone).png using Guid(5f83156b50a1941c3a3cea628957f916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546312817bbd9f448e0f64da883ea27c') in 0.005929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Halberd 2.png
+  artifactKey: Guid(2660e2505df8c46e085b2c7b5a8b002f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halberd 2.png using Guid(2660e2505df8c46e085b2c7b5a8b002f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09e11407f344a2b33377e70d7a5348c') in 0.005775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Quiver 2.png
+  artifactKey: Guid(7e1b19ba827dc491fbd44c6e8a6ba6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiver 2.png using Guid(7e1b19ba827dc491fbd44c6e8a6ba6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289274b4b7a158b9747fc3db0a62f55a') in 0.005498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/custom6(Clone).png
+  artifactKey: Guid(e5fac74deb138425fbbb11ab09f47626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/custom6(Clone).png using Guid(e5fac74deb138425fbbb11ab09f47626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c07a2e146aad26b2e68e93f064f827f') in 0.006190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 48.072788 seconds.
+  path: Assets/Scenes/Asset Forge Models/Textures/Antlers 2.png
+  artifactKey: Guid(2a32019bb0fda4be8a7d5b7b85105359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Textures/Antlers 2.png using Guid(2a32019bb0fda4be8a7d5b7b85105359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6333727d4207aec8827935f9d96856') in 0.016255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Scenes/Asset Forge Models/Textures/custom5(Clone).png
+  artifactKey: Guid(6037e2da809804a8fbf8951e47b36072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Textures/custom5(Clone).png using Guid(6037e2da809804a8fbf8951e47b36072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6a2140bd8d4793a10834bb08f9959f') in 0.013112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Scenes/Asset Forge Models/Textures/custom4(Clone).png
+  artifactKey: Guid(366cf22baff7d4881a2d9130566baa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Textures/custom4(Clone).png using Guid(366cf22baff7d4881a2d9130566baa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc635c67439aa4cdbf0f64a9cc85dae9') in 0.008316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/Asset Forge Models/Textures/custom3(Clone).png
+  artifactKey: Guid(5000b4736e6774f8893139751a0a2e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Textures/custom3(Clone).png using Guid(5000b4736e6774f8893139751a0a2e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb5b8da681f646187cb650f85e06d63') in 0.007818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/Asset Forge Models/Textures/Wagon 2.png
+  artifactKey: Guid(ec486dffc615a4eed8d1d79db4a7bfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Textures/Wagon 2.png using Guid(ec486dffc615a4eed8d1d79db4a7bfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd041117875024dbace96c018cc6b265') in 0.005583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.243282 seconds.
+  path: Assets/Scenes/Asset Forge Models/Bayonet.fbx
+  artifactKey: Guid(9566578f5cb054a268bc6beedceed3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Bayonet.fbx using Guid(9566578f5cb054a268bc6beedceed3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d4f3d4932d90f10309e7f711446d34') in 0.036047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/Asset Forge Models/Flail 2.fbx
+  artifactKey: Guid(e2e2be5bfdbd2488facac6d8dbe30fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Forge Models/Flail 2.fbx using Guid(e2e2be5bfdbd2488facac6d8dbe30fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4f05eb2ce0b70cde1f61838a38d831') in 0.067553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
