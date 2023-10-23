@@ -1,0 +1,257 @@
+Unity Editor version:    2022.3.7f1 (b16b3b16c7a0)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5.1 (Build 22G90)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jackson/Documents/GitHub/MAGD-372-Projects/372 Assignments and Projects
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50352
+Successfully changed project path to: /Users/jackson/Documents/GitHub/MAGD-372-Projects/372 Assignments and Projects
+/Users/jackson/Documents/GitHub/MAGD-372-Projects/372 Assignments and Projects
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704629298944] Host "[IP] 172.22.127.236 [Port] 0 [Flags] 2 [Guid] 1666910243 [EditorId] 1666910243 [Version] 1048832 [Id] OSXEditor(0,Jacksons-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704629298944] Host "[IP] 172.22.127.236 [Port] 0 [Flags] 2 [Guid] 1666910243 [EditorId] 1666910243 [Version] 1048832 [Id] OSXEditor(0,Jacksons-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jackson/Documents/GitHub/MAGD-372-Projects/372 Assignments and Projects/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001853 seconds.
+- Loaded All Assemblies, in  0.466 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.374 seconds
+Domain Reload Profiling: 840ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (185ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (374ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jackson/Documents/GitHub/MAGD-372-Projects/372 Assignments and Projects/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jackson/Documents/GitHub/MAGD-372-Projects/372 Assignments and Projects/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.127 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.353 seconds
+Domain Reload Profiling: 2480ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (822ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (478ms)
+			TypeCache.Refresh (411ms)
+				TypeCache.ScanAssembly (382ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1354ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1036ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (823ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 246 unused Assets / (12.1 MB). Loaded Objects now: 7839.
+Memory consumption went from 357.3 MB to 345.2 MB.
+Total: 8.959025 ms (FindLiveObjects: 0.613755 ms CreateObjectMapping: 0.634030 ms MarkObjects: 4.424463 ms  DeleteObjects: 3.285818 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9976.977760 seconds.
+  path: Assets/Flail 2.fbx
+  artifactKey: Guid(8d101a7c6029a4141ac4ab7ae42f99a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flail 2.fbx using Guid(8d101a7c6029a4141ac4ab7ae42f99a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e6ac210b64937c0cf58ff3a0abc6f3') in 0.022494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Arrow.fbx
+  artifactKey: Guid(683a952795a2f40d292e9b2ae681691e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arrow.fbx using Guid(683a952795a2f40d292e9b2ae681691e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ef89988ecb227fd9002ec82a7b1c27') in 0.002127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Quiver 2.fbx
+  artifactKey: Guid(acc2665262b2145b5a86f3a1a6667139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiver 2.fbx using Guid(acc2665262b2145b5a86f3a1a6667139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647d3fb463c28937973fa5e47638ad92') in 0.001542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Antlers.fbx
+  artifactKey: Guid(54bb6739463764c97805d8c7632ac0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Antlers.fbx using Guid(54bb6739463764c97805d8c7632ac0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04952c66013c98f6ef67d8d4e18f8514') in 0.002022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Arrow 2.fbx
+  artifactKey: Guid(acfffa8a86381461e8ab9031696886a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arrow 2.fbx using Guid(acfffa8a86381461e8ab9031696886a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb9e3c80298fc68d308f0132e10fbb7') in 0.001636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Quiver.fbx
+  artifactKey: Guid(3273c26c5e6eb49209d4b9aa41ae9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiver.fbx using Guid(3273c26c5e6eb49209d4b9aa41ae9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a88f19a869b3aecb3a93c6358a469b') in 0.002533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Antlers 2.fbx
+  artifactKey: Guid(34d62449039924ab6a89cadfa6bfb690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Antlers 2.fbx using Guid(34d62449039924ab6a89cadfa6bfb690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3aa8baf06bf47503aa67196e6170efe') in 0.002284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Flail.fbx
+  artifactKey: Guid(19a943622166745a28f2fdeb3707b0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flail.fbx using Guid(19a943622166745a28f2fdeb3707b0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3296357c44ae62ac6c46659c11486037') in 0.002236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Weapon Rack 2.fbx
+  artifactKey: Guid(99028546df0f648838a1a290c7b8a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon Rack 2.fbx using Guid(99028546df0f648838a1a290c7b8a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7023fb1702e1db7ce6f721372d00907c') in 0.001599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
